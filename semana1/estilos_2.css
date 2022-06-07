@@ -1,0 +1,14 @@
+p{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#p2 {
+    color: green;
+}
+
+.par {
+    color: blue !important;
+}

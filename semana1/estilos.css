@@ -1,0 +1,30 @@
+h1 {
+    color: gray;
+    text-decoration: underline;
+}
+
+h2 {
+    color: blue;
+}
+
+#cabecera1 {
+    color: red;
+}
+
+.parrafos_rojos {
+    color: red !important;
+    font-weight: 600;
+}
+
+
+th {
+    background-color: blueviolet;
+    color: aliceblue;
+    font-style: italic;
+}
+
+td {
+    color: blueviolet;
+    text-align: center;
+    font-style: italic;
+}
