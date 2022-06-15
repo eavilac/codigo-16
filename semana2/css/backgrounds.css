@@ -1,0 +1,30 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bg {
+    border: solid;
+    height: 300px;
+}
+
+.color-red {
+    background-color: red;
+}
+
+.color-green {
+    background-color: green;
+}
+
+.bg-img {
+    background: url("../../semana1/images/descarga.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-img-amongus {
+    background: url(../../semana1/images/fondos-among-us.png);
+    height: 500px;
+    background-size: cover;
+    /* Esto indica que queremos mostrar la parte central de la imagen */
+    background-position: center;
+}

@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(190, 190, 190);
+}
+
+/* #contenedor {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(red, blue);
+    margin: auto;
+} */
+
+#contenedor {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, red 33%, white 33%, white 66%, red 66%);
+    margin: auto;
+}
+
+#contenedor:hover {
+    background: linear-gradient(to top, red 33%, white 33%, white 66%, red 66%);
+}
+
+#circulo {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(red 33%, white 33%, white 50%, red 50%);
+    margin: 60px auto;
+    border-radius: 100px;
+    filter: blur(10px) grayscale(80%);
+}
+
+.sombra {
+    /* 1 parametros: eje X (default derecha) */
+    /* 2 parametros: eje Y (default abajo) */
+    /* 3 parametros: blur (difuminación) */
+    /* 4 parametros: spread (propagación) */
+    /* 5 parametros: color */
+    box-shadow: 20px 20px 10px -10px yellow;
+}
+
+.sombra_texto {
+    /* 1 parametros: eje X (default derecha) */
+    /* 2 parametros: eje Y (default abajo) */
+    /* 3 parametros: blur (difuminación) */
+    /* 4 parametros: color */
+    text-shadow: 10px 10px 5px yellow;
+}

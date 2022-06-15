@@ -1,0 +1,71 @@
+.bg-box {
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    /* para mover este elemento por todo el navegados */
+    position: relative;
+    /* al agregar un position a un element
+    este nos da la opcion de usar lo siguiente
+    top
+    left
+    right
+    booton */
+    /* top: 100px; */
+    /* left: 100px; */
+    right: 100px;
+}
+
+.padre {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    position: relative;
+}
+
+.hijo {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    /* right: 0; */
+    /* bottom: 0; */
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+
+}
+
+
+.bandera {
+    height: 100vh;
+    border: solid;
+    position: relative;
+
+}
+
+.green {
+    background-color: green;
+    height: 100vh;
+    width: 40%;
+    /* position: absolute; */
+    float: left;
+}
+
+.red {
+    background-color: red;
+    height: 100vh;
+    width: 60%;
+    /* position: absolute;
+    left: 30%; */
+    float: right;
+}
+
+.escudo {
+    background: url(../images/Portugal_Esfera_Armilar-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(40% - 100px);
+}

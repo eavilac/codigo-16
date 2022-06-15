@@ -1,5 +1,6 @@
 h1 {
-    font-family: -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Dosis', sans-serif;
     font-size: 45px;
     /* font-weight va desde 100-900 */
     font-weight: 500;
@@ -7,7 +8,7 @@ h1 {
 }
 
 .parrafo {
-    font-family: "Dark Mono", monospace;
+    font-family: 'Kdam Thmor Pro', sans-serif;
     font-size: 32px;
     font-weight: bold;
 }
@@ -67,4 +68,22 @@ ul {
     text-decoration-color: rgb(255, 183, 0);
     /* Estamos indicando que el texto sea en minusiculas */
     text-transform: lowercase;
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Blaka';
+    src: url(../fonts/Blaka-Regular.ttf);
+}
+
+.cabecera-2 {
+    font-family: 'Dancing Script';
+}
+
+.parrafo-1 {
+    font-family: 'Blaka';
 }

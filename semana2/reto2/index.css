@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.contenedor {
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    position: relative;
+}
+
+.contenedor-interno {
+    width: 375px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 10px;
+    border-radius: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: calc(50% - 187.5px);
+}
+
+/* Aca estamos diciendo que queremos aplicar el 
+estilo a cada elemento que este dentro de este div */
+.contenedor-interno * {
+    margin-top: 10px;
+}
+
+
+.principal-img {
+    width: 345px;
+    background-size: cover;
+    border-radius: 16px;
+    padding-left: 15px;
+}
+
+.text-left {
+    display: inline;
+    padding-left: 15px;
+    float: left;
+}
+
+.text-right {
+    display: inline;
+    padding-right: 15px;
+    float: right;
+}
+
+.text-left-img {
+    border: solid red;
+}
+
+.text-right-img {
+    border: solid red;
+}
+
+
+
+h2{
+    color: hsl(0, 0%, 100%);
+    padding-left: 15px;
+}
+
+.text-1 {
+    color: hsl(215, 51%, 70%);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text-2 {
+    color: hsl(178, 100%, 50%);
+    display: inline;
+    border: solid red;
+}
+
+.text-3 {
+    color: hsl(215, 51%, 70%);
+    display: inline;
+    border: solid red;
+}
+
+.text-footer-img {
+    width: 50px;
+}
